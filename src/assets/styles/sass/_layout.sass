@@ -1,0 +1,45 @@
+@import '_variable.sass'
+    
+*
+    margin: 0
+    padding: 0
+
+
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: $font
+.wrapper
+    margin-right: auto /* 1 */
+    margin-left:  auto /* 1 */
+
+    max-width:  70% /* 2 */
+
+    padding-right: 10px /* 3 */
+    padding-left:  10px /* 3 */
+.flex-vertical-center
+    display: flex
+    flex-direction: column
+    justify-content: center
+.flex-align-center
+    display: flex
+    flex-direction: column
+    align-items: center
+.flex-horizontal-center
+    display: flex
+    flex-direction: row
+    align-item: center
+@media screen and (max-width: 768px) 
+    .wrapper
+        margin-right: auto /* 1 */
+        margin-left:  auto /* 1 */
+
+        max-width:  100% /* 2 */
+        padding-right: 30px /* 3 */
+        padding-left:  30px /* 3 */
+
+      
+
+
+
